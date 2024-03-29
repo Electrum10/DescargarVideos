@@ -9,10 +9,15 @@ ventana.configure(background="#B3B3B3")
 
 #Función para descargar el video
 def DescargarVideo():
+    try:
         URL = Url.get()
         ytObject = YouTube(URL)
         video = ytObject.streams.get_highest_resolution()
-        video.download()
+        outPath = '../Descargas'
+        video.download(output_path=outPath)
+    except:
+        print("El link que has puesto no vale")
+    print("descarga completada")
 
 
 #Titulo del programa
@@ -50,5 +55,6 @@ Texto.place(relx=0.17, rely=0.37)
 #Botón para descargar el video
 Descargar = tkinter.Button(ventana, command=DescargarVideo, text="¡Descarga Ya!")
 Descargar.place(relx=0.41, rely=0.68, relheight=0.1, relwidth=0.2)
+
 
 ventana.mainloop()
