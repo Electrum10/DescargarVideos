@@ -1,21 +1,26 @@
-## Descargador de videos de YouTube
+## ¡Descarga tus videos de YouTube sin rollos! 🎉
 
-¿Cansado de que cuando te vas a descargar un video de YouTube, te entren 20 troyanos, 2 malwares y Marta te quiere conocer?.
+¿Harto de descargar un video y que te caigan 20 troyanos, 2 malwares y que hasta Marta te quiera conocer? 😅
 
-Pues yo también estaba cansado de ello.
+¡Ya somos dos! 🙌
 
-Por eso, he creado un Descargador de videos de YouTube sin anuncios ni nada que te molesta.
-(el tema legal eso ya no lo se).
+Por esta razón, armé un Descargador de Videos de YouTube, sin anuncios ni nada que te joda el dia. (Lo legal, bueno, eso ya no sé). 
 
-### ¿Que he usado?
+### ¿Qué usé? 🛠️
 
-Para este proyecto he utilizado Tkinter y Pytube, 2 librerías para hacer una interfaz gráfica y descargar los videos respectivamente.
+Para armar este programa, me lancé con Tkinter y Pytube.
 
-De momento el proyecto funciona, pero aun le faltan algunos arreglos estéticos.
+Con esas dos, armé una interfaz chula y construí el sistema de descargas. 🖥️💾
 
-Poco a poco le ire subiendo cosas hasta que este acabado al 100%.
+### Desarrollo 🔨
 
+El proyecto ya funciona, pero le falta ese toque estético que hace que digas: "¡Wow!". 💫
 
-Nos vemos.
-Jan Gangolells Maldonado.
+De momento ya puedes descargar qualquier video, ya sea en MP3 o en MP4 y elegir en donde quieres descargarlo.
+
+Poco a poco lo iré puliendo hasta dejarlo brillando al 100%. 💪
+
+¡Nos vemos en el camino! 👋
+
+Jan Gangolells Maldonado
 @Electrum10
