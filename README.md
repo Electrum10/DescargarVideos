@@ -1,10 +1,11 @@
 ## ¡Descarga tus videos de YouTube sin rollos! 🎉
 
-¿Harto de descargar un video y que te caigan 20 troyanos, 2 malwares y que hasta Marta te quiera conocer? 😅
+¿Harto de descargar un video y que te caigan 20 troyanos, 2 malwares y que hasta Marta te quiera conocer?
 
 ¡Ya somos dos! 🙌
 
-Por esta razón, armé un Descargador de Videos de YouTube, sin anuncios ni nada que te joda el dia. (Lo legal, bueno, eso ya no sé). 
+Por esta razón, armé un Descargador de Videos de YouTube, sin anuncios ni nada que te joda el dia.
+(Lo legal, bueno, eso ya no sé). 
 
 ### ¿Qué usé? 🛠️
 
