@@ -5,7 +5,7 @@ from tkinter import filedialog
 
 #Configuración básica de la ventana
 ventana = tkinter.Tk()
-ventana.title("Hola mundo")
+ventana.title("Descargador de Videos de YouTube")
 ventana.geometry("700x500")
 ventana.configure(background="#B3B3B3")
 
