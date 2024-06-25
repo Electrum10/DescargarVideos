@@ -12,19 +12,20 @@ ventana.configure(background="#B3B3B3")
 directorio = ""
 
 
+
 #Función para descargar el video
 def DescargarVideo():
         URL = Url.get()
         Selección = Combo.get()
         ytObject = YouTube(URL)
+        directorio = filedialog.askdirectory(title = "Selecciona en donde quieres que se descargue el video")
+        
         if Selección == "MP3":
-            video = ytObject.streams.filter(only_audio=True).first()
-            directorio = filedialog.askdirectory(title = "Selecciona en donde quieres que se descargue el video")
-            video.download(directorio)
+            video = ytObject.streams.get_audio_only()
+            video.download(output_path=directorio, filename=ytObject.title + ".mp3")
         elif Selección == "MP4":
             video = ytObject.streams.get_highest_resolution()
-            directorio = filedialog.askdirectory(title = "Selecciona en donde quieres que se descargue el video")
-            video.download(directorio)
+            video.download(output_path=directorio, filename=ytObject.title + ".mp4")
 
 #Titulo del programa
 Titulo = tkinter.Label(ventana, text="Descargador de Videos de YouTube", font=("Arial", 20, "bold", "italic",), background="#B3B3C2")
@@ -43,13 +44,9 @@ frame.place(relx=0.15, rely=0.3)
 frame.config(bg="lightblue")
 frame.config(bd=25, relief="solid", borderwidth=3)
 
-
-
 #Entrada para poner el URL
 Url = tkinter.Entry(ventana)
 Url.place(relheight=0.08, relwidth=0.33, relx=0.5, rely=0.36)
-
-
 
 #Texto para poner el URL del video
 Texto = tkinter.Label(ventana, text="Pon el URL del video", font=("Arial", 16, "normal", "italic",), background="lightblue")
